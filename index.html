@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css"> 
@@ -12,7 +13,7 @@
     <title>Max Breslauer-Friedman</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-red">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-red fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Max Breslauer-Friedman</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,49 +23,58 @@
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link" href="#about">About</a></li>
                 <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link" href="#projects">Projects</a></li>
-                <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link" href="#">Experience</a></li>
-                <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link" href="#contact">Contact</a></li>
                 <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link" href="#">Resume</a></li>
             </ul>
           </div>
         </div>
     </nav>
-    <header class="text-center"> 
-        <section class="text-pink pb-5 bg-grey">
+    <header class="text-center pt-5"> 
+        <section class="text-red bg-grey">
             <img class="img-fluid rounded-circle mt-5 mb-5" src="assets/img/profile.jpg">
-            <h1 >Max Breslauer-Friedman</h1>
-        </section>
-        <section id = "#about" class="text-pink bg-green pt-5 pb-5">
-            <h1 class="mb-5">About Me</h1>
-            <div class="text-green bg-red p-4 rounded-3 info-bubble m-auto">
-                <p>I'm a rising third year student at Northeastern University majoring in Computer Science and Concentrating in Artifical Intelligence. I am currently working a six month co-op at CarGurus as a Software Engineer.  </p>
-            </div>
+            <h1 class="pb-5">Max Breslauer-Friedman</h1>
         </section>
     </header>
-    <section id="projects" class="bg-grey text-pink pt-3">
+    <section id="about" class="text-center text-pink bg-green pt-5 pb-5">
+        <h1 class="mb-5 text-red">About Me</h1>
+        <div class="text-green bg-red p-4 rounded-3 info-bubble m-auto">
+            <p>I'm a rising third year student at Northeastern University majoring in Computer Science and Concentrating in Artifical Intelligence. I am currently working a six month co-op at CarGurus as a Software Engineer.  </p>
+        </div>
+    </section>
+    <section id="projects" class="bg-grey text-pink pt-5 pb-5">
+        <h1 class="text-center mb-5 text-red">My Projects</h1>
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="card border-white border rounded shadow-lg c-card-d" style="width: 18rem;">
+                    <div class="card m-auto" style="width: 18rem;">
                         <img src="assets/img/nflforecast.jpg" class="card-img-top">
                         <div class="card-body">
                         <h5 class="card-title"><a href="https://nfl-forecast.github.io/">NFL Forecast</a></h5>
-                        <p class="card-text">Using data collected from the regular season, see how well each games outcome can be predicted!</p>
+                        <p class="card-text text-green">Using data collected from the regular season, see how well each games outcome can be predicted!</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">             
-                    <div class="card" style="width: 18rem;">
-                            <img src="assets/img/chloropleth.JPG" class="card-img-top" alt="...">
+                    <div class="card m-auto" style="width: 18rem;">
+                        <img src="assets/img/chloropleth.JPG" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title"><a href="https://github.com/maxnbf/ds3000_covid_prediction">Predicting Covid-19 Cases</a></h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text text-green">Developed a machine learning model to predict COVID-19 cases in a county based on prior factors.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+    </section>
+    <section id="contact" class="bg-green pt-5 pb-5">
+        <h1 class="text-center mb-5 text-red">Contact Me</h1>
+        <div id="social-media-icons" class="text-center m-auto">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-github"></a>
+        </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
