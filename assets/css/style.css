@@ -1,5 +1,30 @@
 .img-fluid {
     width: 200px;
-    height: 100px;
+    height: 200px;
     border-radius: 300px;
+}
+
+.bg-red {
+    background-color: #FC766AFF;
+}
+
+.bg-grey {
+    background-color: #B0B8B4FF;
+}
+
+.bg-green {
+    background-color: #184A45FF;
+     
+}
+
+.text-grey {
+    color:  #B0B8B4FF;
+}
+
+.text-green {
+    color: #184A45FF;
+}
+
+.info-bubble {
+    width:50%;
 }
