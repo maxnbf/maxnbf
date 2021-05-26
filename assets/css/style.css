@@ -5,7 +5,7 @@
 }
 
 .bg-red {
-    background-color: #FC766AFF;
+    background-color:#FC766AFF ;
 }
 
 .bg-grey {
@@ -15,6 +15,10 @@
 .bg-green {
     background-color: #184A45FF;
      
+}
+
+.text-pink {
+    color: #FC766AFF
 }
 
 .text-grey {
@@ -27,4 +31,8 @@
 
 .info-bubble {
     width:50%;
+}
+
+a {
+    text-decoration: none;
 }
