@@ -36,3 +36,8 @@
 a {
     text-decoration: none;
 }
+
+.card-img-top {
+    width: 18rem;
+    height: 160px;
+}
