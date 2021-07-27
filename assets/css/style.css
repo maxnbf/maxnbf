@@ -1,76 +1,78 @@
 .img-fluid {
-    width: 200px;
-    height: 200px;
-    border-radius: 300px;
+  border-radius: 300px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img-container {
+  width: 200px;
+  height: 200px;
 }
 
 .bg-red {
-    background-color:#FC766AFF ;
+  background-color: #2b2b2d;
 }
 
 .bg-grey {
-    background-color: #B0B8B4FF;
+  background-color: #387490;
 }
 
 .bg-green {
-    background-color: #184A45FF;
-     
+  background-color: #01acb6;
 }
 
 .text-red {
-    color: #FC766AFF
+  color: #2b2b2d;
 }
 
 .text-grey {
-    color:  #B0B8B4FF;
+  color: #387490;
 }
 
 .text-green {
-    color: #184A45FF;
+  color: #01acb6;
 }
 
 .info-bubble {
-    width:50%;
+  width: 50%;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a:hover {
-    color: black;
+  color: black;
 }
 
 .card-img-top {
-    width: 18rem;
-    height: 160px;
+  width: 18rem;
+  height: 160px;
 }
 
 .fa {
-    padding: 20px;
-    font-size: 60px;
-    width: 150px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
+  padding: 20px;
+  font-size: 60px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
-
-  
 .fa:hover {
-    opacity: 0.7;
-    color:white
+  opacity: 0.7;
+  color: white;
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 
 .fa-github {
   background: gray;
-  color:white;
+  color: white;
 }
 
 .fa-google {
